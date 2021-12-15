@@ -30,6 +30,7 @@ api.interceptors.request.use(
     }
 
     return config;
+    
   },
   (err) => console.error(err)
 );
